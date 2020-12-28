@@ -36,7 +36,12 @@ Thumbs.db
 
 # Vagrant #
 ##########
-.vagrant
+acceptance_config.yml
+boxes/*
+/.vagrant
+.vagrant/
+/vagrant-spec.config.rb
+test/vagrant-spec/.vagrant/
 
 # Docker #
 ##########
